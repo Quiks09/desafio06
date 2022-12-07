@@ -1,0 +1,214 @@
+* {
+    font-family: 'Gilroy', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(33,12,54,1) 45%, rgba(44,9,79,1) 77%, rgba(66,12,120,0.8799894957983193) 100%);
+}
+
+h1{font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 32.4px;
+}
+
+h2{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logohbo{
+    height: 168px;
+    margin-top: 0;
+    margin-left: 110px;
+}
+
+header{
+    background-color: #060633;
+    height: 50px;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-nav{
+    max-width: 1300px;
+    margin: auto;
+    height: 50px;
+    background-color: #0909369d;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+button{
+    font-weight: bolder;
+}
+
+.btsuscrib{
+    color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(255, 255, 255, 0.616);
+    border: none;
+    border-radius: 8px;
+    padding: 6px 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+
+.btsuscrib:hover{
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.952); 
+    color: #060633;
+}
+
+.titulo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.login-section{
+    margin: auto;
+    max-width: 556px;
+    min-width: 500px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    text-align: center;
+    align-items: stretch;
+    background-color: rgba(221, 221, 221, 0.06);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.sep{
+    size: 70%;
+    margin-top: 15px;
+}
+
+.tienes{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+input{
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border-width: 0.5px;
+    color: rgb(255, 255, 255);
+    height: 56px;
+    padding-left: 12px;
+    width: 100%;
+}
+
+.btaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btlogin{
+    color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(255, 255, 255, 0.616);
+    border:none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+
+.btlogin:hover{
+    cursor: pointer;
+    background-color:rgba(27, 25, 25, 0.781); ;
+}
+
+.alogin{
+    color: rgb(145, 129, 248);
+}
+
+.proveedor{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.btprov{
+    color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(255, 255, 255, 0.616);
+    border:none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+.btprov:hover{
+    cursor: pointer;
+    background-color:rgba(27, 25, 25, 0.781); ;
+}
+
+footer{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:800px) {
+    header{
+        margin-bottom: 300px;
+    }
+
+    footer{
+        margin-top: 333px;
+  
+    }
+
+}

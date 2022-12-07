@@ -1,0 +1,42 @@
+*{
+    font-family: 'Gilroy', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+header{
+    background-color: rgb(6, 6, 51);
+    
+}
+
+.navbar{
+    background-color: rgba(9, 9, 54, 0.616);
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+}
+
+button{
+    border-radius: 16px;
+    font-weight: bolder;
+}
+
+.bthead{
+    background-color: #7f26d9;
+}
+
+.bthead:hover {
+    background-color: white;
+    color: #040425;
+
+}
+
+.btsub{
+    border-color: #7f26d9;
+    background-color: #7f26d9;
+}
+
+.btsub:hover {
+    background-color: #040425;
+}  
